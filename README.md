@@ -69,7 +69,7 @@ save_wav(wav, sr, "outputs/hello.wav")
 ## 🗂️ 프로젝트 구조
 
 ```
-Gemini_Falsh_TTS_Preview_Guide/
+Gemini_Flash_TTS_Preview_Guide/
 ├── gemini_tts.py        # 코어 모듈: synthesize(), save_wav(), VOICES, INLINE_TAGS ...
 ├── cli.py               # 커맨드라인 합성기
 ├── requirements.txt     # 필요한 패키지
