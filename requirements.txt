@@ -1,0 +1,12 @@
+# Gemini Flash TTS (Preview) 가이드 — 실행에 필요한 패키지
+#   설치:  pip install -r requirements.txt
+#
+# 핵심(합성):
+google-genai>=0.3.0     # Gemini 네이티브 SDK (from google import genai) — openai SDK와 다른 패키지
+numpy>=1.24             # 오디오 배열 처리(PCM16 → float32)
+soundfile>=0.12         # wav 저장(soundfile.write)
+python-dotenv>=1.0      # .env 에서 GEMINI_API_KEY 로드
+
+# 노트북 예제용(청음/재생):
+ipython>=8.0            # IPython.display.Audio 로 셀에서 바로 듣기
+# jupyter               # (선택) 노트북을 로컬에서 열려면:  pip install jupyter
